@@ -45,6 +45,10 @@ public class MainApp {
 //            System.out.println();
 //        }
 
+        System.out.println(car1.getUser());
+        System.out.println();
+
+
         List<Car> searchUserCar = userService.getCar("m4",4);
         for (Car car: searchUserCar){
             System.out.println(car.getUser());
